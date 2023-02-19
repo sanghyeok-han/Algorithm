@@ -1,0 +1,1 @@
+{"name":"Local: boj26752","url":"c:\\Users\\User\\Desktop\\cpp\\boj\\boj26752.cpp","tests":[{"id":1671964478304,"input":"17 8 50","output":"17:08:51"},{"id":1671964729433,"input":"23 59 59","output":"00:00:00"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Desktop\\cpp\\boj\\boj26752.cpp","group":"local","local":true}
