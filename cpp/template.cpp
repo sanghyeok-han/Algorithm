@@ -606,31 +606,31 @@ int value;
 
 void dfs(int value)
 {
-    for (auto v : vec[value])
+  for (auto v : vec[value])
+  {
+    if (vt[v])
     {
-        if (vt[v])
-        {
-            continue;
-        }
-        vt[v] = true;
-        dfs(v);
+      continue;
     }
+    vt[v] = true;
+    dfs(v);
+  }
 
-    stack_.push(value);
+  stack_.push(value);
 }
 
 void dfs2(int value)
 {
-    for (auto v : rvec[value])
+  for (auto v : rvec[value])
+  {
+    if (vt[v])
     {
-        if (vt[v])
-        {
-            continue;
-        }
-        vt[v] = true;
-        temp.push_back(v);
-        dfs2(v);
+      continue;
     }
+    vt[v] = true;
+    temp.push_back(v);
+    dfs2(v);
+  }
 }
 
 for (int i = 1; i < n + 1; i++)
